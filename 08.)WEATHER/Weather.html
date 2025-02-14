@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container ">
+        <div class="top">
+            <input type="text" placeholder="Enter City Name" id="search">
+            <button id="submit"><img src="images/search.svg" alt=""></button>
+        </div>
+        <div class="error display">
+            This city not found!
+        </div>
+        <div class="weather display">
+            <img src="images/partiallyCloudy.png" alt="" class="icon">
+            <div class="temprature">25°C</div>
+            <div class="cityName">Delhi</div>
+            <div class="details">
+                <div class="humidity">
+                    <img src="images/humidity.svg" alt="" class="humidIcon invert">
+                    <div class="humidDetail">
+                        <div class="valueOfHumid">30%</div>
+                        <div class="title">Humidity</div>
+                  
+                    </div>
+                </div>
+                <div class="wind">
+                    <img src="images/wind.png" alt="" class="windIcon invert">
+                    <div class="windDetail">
+                        <div class="valueOfWind">5km/h</div>
+                        <div class="title">Wind speed</div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
